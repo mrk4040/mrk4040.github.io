@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorry</title>
+    <style>
+        body {
+            background-color: black;
+            color: aliceblue;
+            font-family: 'Courier New', Courier, monospace;
+            padding-top: 100px;
+        }
+    </style>
+
+</head>
+
+<body onload="enableLoop()">
+    <script>
+        var x = document.getElementById("myToyPiano");
+
+        function enableLoop() {
+            x.loop = true;
+            x.load();
+        }
+    </script>
+    <div style="text-align: center">
+        <img src="https://www.wowkeren.com/images/news/00167338.jpg" alt="" width="550" srcset="" /><br/> touched by <span style="color: red;">MRK404</span>
+        <br/><br/> Indonesian Hacker Rulez<br/>
+        <marquee width="200">------------------------------------------------------------------------------------------------------</marquee><br/>
+
+        <audio id="myToyPiano" controls autoplay="true" hidden="true">
+            <source src="https://www.kedaiscript.com/Toy_Piano.ogg" type="audio/ogg"/>
+            <source src="https://www.kedaiscript.com/Toy_Piano.mp3" type="audio/mpeg"/>
+          </audio>
+    </div>
+</body>
+
+</html>
